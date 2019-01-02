@@ -1,0 +1,29 @@
+{
+    "description": "The jsonapi-querifier-bundle offers the Querifer filter syntax for the paknahad/jsonapi-bundle.",
+    "name": "paknahad/jsonapi-querifier-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": ["json-api", "symfony", "php", "RESTful"],
+    "authors": [
+        {
+            "name": "Hamid Pakanahad",
+            "email": "hp.paknahad@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "paknahad/jsonapi-bundle": "^2.0",
+        "paknahad/querifier": "^0.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": { "Paknahad\\JsonApiQuerifierBundle\\": "src/" }
+    }
+}
