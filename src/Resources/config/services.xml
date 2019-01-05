@@ -7,7 +7,7 @@
     <services>
         <defaults autowire="true" autoconfigure="true" public="false" />
 
-        <service class="Paknahad\JsonApiQuerifierBundle\Finder\Querifier" id="json_api.finder.querifier">
+        <service class="Paknahad\JsonApiQuerifierBundle\Finder\Querifier" id="paknahad_json_api.helper_filter.finder">
             <tag name="paknahad.json_api.finder" />
         </service>
     </services>

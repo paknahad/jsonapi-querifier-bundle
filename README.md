@@ -6,7 +6,7 @@ This package is only a link between and [paknahad/jsonapi-bundle][1] [paknahad/q
 # Installation
 
 ```
-composer require paknahad\jsonapi-querifier-bundle
+composer require paknahad/jsonapi-querifier-bundle
 ```
 
 # Usage
