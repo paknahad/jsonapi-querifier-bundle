@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "paknahad/jsonapi-bundle": "^2.0",
-        "paknahad/querifier": "^0.1"
+        "paknahad/jsonapi-bundle": "^2.2",
+        "paknahad/querifier": "^0.2"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
