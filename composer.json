@@ -13,7 +13,7 @@
     "require": {
         "php": ">=7.1",
         "paknahad/jsonapi-bundle": ">=2.2",
-        "paknahad/querifier": "^0.2"
+        "paknahad/querifier": "^1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
